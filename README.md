@@ -28,7 +28,7 @@ Every session includes:
 - **Defensive strategies** mapped directly to each attack
 - **Key Event IDs** to monitor in a real SOC environment
 
-> **Study sources:** Handwritten lecture notes (Intro_AD) + SANS SEC560 Enterprise Penetration Testing material
+> **Study sources:** SANS SEC560 Enterprise Penetration Testing material
 
 ---
 
@@ -48,9 +48,6 @@ Every session includes:
 ---
 
 ## 🔐 Session 1 — AD Fundamentals & Authentication
-
-> **Source:** `Intro_AD.pdf` + `Understanding_Kerberos_and_AD_Attacks.pdf`
-> **Status:** ✅ Complete
 
 ---
 
@@ -126,7 +123,6 @@ Step 5:  Each 8-byte block encrypted with DES
 Step 6:  Concatenate both DES outputs → LM Hash stored in SAM
 ```
 
-> ⚠️ **Why it's broken:** Uppercase-only reduces keyspace to 75 ASCII chars. Split into two 7-char halves means you crack each half independently. The fixed DES key makes it deterministic — identical passwords always produce identical hashes.
 
 **② NT Hash** *(current standard)*
 
@@ -478,6 +474,5 @@ DCShadow:  Attacker ──── pushes changes in ──► DC
 
 <div align="center">
 
-*Built session by session · Offense understood · Defense applied*
 
 </div>
