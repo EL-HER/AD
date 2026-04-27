@@ -463,12 +463,9 @@ DCShadow:  Attacker ──── pushes changes in ──► DC
 
 | Resource | Description |
 |----------|------------|
-| [Microsoft Learn — AD DS Overview](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/) | Official architecture and domain design documentation |
 | [Microsoft Learn — Kerberos Overview](https://learn.microsoft.com/en-us/windows-server/security/kerberos/kerberos-authentication-overview) | Official Kerberos flow and ticket structure |
-| [HackTricks — AD Methodology](https://book.hacktricks.xyz/windows-hardening/active-directory-methodology) | Attacker-perspective attack chain coverage |
 | [SpecterOps — Kerberoasting Revisited](https://posts.specterops.io/kerberoasting-revisited-d434351bd4d1) | Deep dive on RC4 vs AES and detection evasion |
 | [dcshadow.com](https://www.dcshadow.com) | Official DCShadow research site |
-| [SANS SEC560](https://www.sans.org/cyber-security-courses/enterprise-penetration-testing/) | Source material for Sessions 1–5 |
 
 ---
 
