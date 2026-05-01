@@ -1,3 +1,16 @@
 # Table of contents
 
-* [Page](README.md)
+* [📚AD & Network Security —](README.md)
+  * [Active Directory Fundamentals](ad-and-network-security/active-directory-fundamentals/README.md)
+    * [🛡️Domain Controller Deep Dive](ad-and-network-security/active-directory-fundamentals/domain-controller-deep-dive.md)
+    * [🔐Authentication — LM, NT, NTLM](ad-and-network-security/active-directory-fundamentals/authentication-lm-nt-ntlm.md)
+    * [🗝️NTLMv2 Protocol](ad-and-network-security/active-directory-fundamentals/ntlmv2-protocol.md)
+    * [🎟️Kerberos — Complete Breakdown](ad-and-network-security/active-directory-fundamentals/kerberos-complete-breakdown.md)
+  * [Standalone Setup](ad-and-network-security/standalone-setup/README.md)
+    * [🔓Authentication Works Stand-Alone](ad-and-network-security/standalone-setup/authentication-works-stand-alone.md)
+    * [🏢Domain-Controlled Setup](ad-and-network-security/standalone-setup/domain-controlled-setup.md)
+    * [Standalone vs Domain — Comparison](ad-and-network-security/standalone-setup/standalone-vs-domain-comparison.md)
+  * [Kerberoasting](ad-and-network-security/kerberoasting/README.md)
+    * [🎯Kerberoasting](ad-and-network-security/kerberoasting/kerberoasting.md)
+    * [DCSync & DCShadow](ad-and-network-security/kerberoasting/dcsync-and-dcshadow.md)
+    * [🎫 Golden Ticket](ad-and-network-security/kerberoasting/golden-ticket.md)
